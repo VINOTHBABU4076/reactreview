@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="submit.html" method="GET">
+        <div>
+            <label for="username"> Username </label>
+            <input text="text" name="username" id="username" placeholder="username" required>
+        </div>
+
+        <div>
+            <label for="password"> Password </label>
+            <input type="password" name="password" id="password" placeholder="password" required>
+        </div>
+        <div>
+            <label for="date of birth"> Date of birth </label>
+            <input type="date" name="date of birth" id="date of birth" required min="1995" max="2023">
+        </div>
+        <div>
+            <label for="email"> Email </label>
+            <input type="email" id="email" placeholder="email">
+        </div>
+
+        <div>
+                <label> About </label>
+                <textarea> </textarea>
+        </div>
+
+        <div>
+            <label for="Email alert"> Email alert </label>
+            <input type="checkbox" name="Email alert" id="Email alert">
+        </div>
+
+        <div>
+            <input type="radio" name="gender" id="male"> 
+            <label for="male"> Male </label>
+        </div>
+
+        <div>
+            <input type="radio" name="gender" id="female">
+            <label for="female"> Female </label>
+        </div>
+
+        <div>
+            <select name="state" id="state" multiple>
+                <option label="TN"></option>
+                <option label="AP"></option>
+                <option label="KA"></option>
+                <option label="UP"></option>
+            </select>
+        </div>
+
+        <div>
+            <label for="file"> Upload proof</label>
+            <input type="file" id="file" name="file">
+        </div>
+
+        <button> Submit </button>
+        <button> Reset </button>
+    </form>
+    </div>
+
+</body>
+
+</html>

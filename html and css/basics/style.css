@@ -1,0 +1,28 @@
+*{
+    color:brown;
+}
+h3{
+    color:blue ;
+}
+#softdev
+{
+    color:green;
+}
+.greentext{
+    color:skyblue;
+
+}
+div>p{
+    color:black;
+}
+div a{
+    color:red;
+}
+body{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size:1.5em
+}
+h1,h2{
+    font-family: cursive;
+    font-size:1em;
+}
