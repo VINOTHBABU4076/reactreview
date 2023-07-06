@@ -5,12 +5,16 @@
     margin: 0 auto;
     display: flex;
     font-family: Arial;
+    position: relative;
 }
 
 .main{
     /* border: 2px solid blue; */
-    background: url(./netflix.jpg);
+    /* background: url(./netflix.jpg); */
     background-size: cover;
+    height: 600px;
+    width: 100%;
+    
     
 }
 
@@ -21,15 +25,18 @@
     border: none;
     padding: 5px 5px;
     margin-left: 76%;
+    position: relative;
    
 }
 #div2{
-    height:300px;
+    height:250px;
+    position: relative;
     /* border:2px  green solid; */
 }
 #div2 h1{
     color:white;
     text-align: center;
+    margin-top: 15%;
 }
 #div2 h3{
     color: white;
@@ -66,6 +73,7 @@
     width: 50%;
     height: 100%;
     font-size: 20px;
+    /* position: relative; */
     
 }
 #title{
@@ -80,8 +88,8 @@
     font-size: 20px;
 
 }
-.subdiv2{
-    height: 552px;
+#subdiv{
+    height: 479px;
     /* border: 2px solid red; */
     display: flex;
 
@@ -89,15 +97,17 @@
 #comppic{
     height: auto;
     width: 50%;
+    /* position: relative; */
     /* border: 2px solid pink; */
-    background: url(./tv.png);
+    /* background: url(./tv.png); */
+    
     
 }
 #comppic2{
     height:400px;
     width: 50%;
     /* border:2px gold solid; */
-    background:url(assasin.webp);
+    /* background:url(assasin.webp); */
 
 }
 .content2{
@@ -124,7 +134,7 @@
     height:400px;
     width: 50%;
     /* border:2px green solid; */
-    background:url(upimage.jpg);
+    /* background:url(upimage.jpg); */
 }
 .subdiv4{
     display: flex;
@@ -132,7 +142,7 @@
 }
 .content3{
     width:50% ;
-    height: 400px;
+    height: 411px;
     /* border: 2px orange solid; */
     color: white;
 
@@ -195,6 +205,10 @@ ul{
 #questionbox{
     padding-left: 81px;
 }
+#background{
+    position: absolute;
+}
+
 
 
 
