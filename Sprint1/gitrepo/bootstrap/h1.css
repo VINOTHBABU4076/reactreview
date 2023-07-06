@@ -1,0 +1,217 @@
+#div1{
+    height: 50px;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    display: flex;
+    font-family: Arial;
+    position: relative;
+}
+
+.main{
+    /* border: 2px solid blue; */
+    /* background: url(./netflix.jpg); */
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    
+    
+}
+
+#button1{
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 5px;
+    margin-left: 76%;
+    position: relative;
+   
+}
+#div2{
+    height:250px;
+    position: relative;
+    /* border:2px  green solid; */
+}
+#div2 h1{
+    color:white;
+    text-align: center;
+    margin-top: 15%;
+}
+#div2 h3{
+    color: white;
+    text-align: center;
+}
+#email{
+    background:rgb(27, 25, 25);
+    border:0 solid transparent;
+    margin-left: 30%;
+    padding: 20px 20px;
+    border-radius: 4px;
+    width: 20%;
+    opacity: .8;
+    color: white;
+}
+#getstarted{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius:  4px;
+    padding: 20px 20px;
+    font-size: 15px;
+
+
+}
+#svg{
+     height: 50px;
+   fill: red;
+}
+.content1{
+    /* border: 8px solid rgb(22, 22, 22); */
+    color: white;
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    font-size: 20px;
+    /* position: relative; */
+    
+}
+#title{
+    margin-top: 170px;
+    margin-left: 210px;
+    margin-bottom: 10px;
+}
+#paragraph{
+    margin-left: 210px;
+    width: 65%;
+    line-height: 40px;
+    font-size: 20px;
+
+}
+#subdiv{
+    height: 479px;
+    /* border: 2px solid red; */
+    display: flex;
+
+}
+#comppic{
+    height: auto;
+    width: 50%;
+    /* position: relative; */
+    /* border: 2px solid pink; */
+    /* background: url(./tv.png); */
+    
+    
+}
+#comppic2{
+    height:400px;
+    width: 50%;
+    /* border:2px gold solid; */
+    /* background:url(assasin.webp); */
+
+}
+.content2{
+    height: 400px;
+    width: 50%;
+    /* border: 2px solid blue; */
+    color: white;
+}
+.subdiv3{
+    display: flex;
+    background-color: black;
+}
+#title2{
+    margin-left:60px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+#paragraph2{
+    margin-top: 10px;
+    margin-left: 60px;
+    font-size: 25px;
+}
+#comppic3{
+    height:400px;
+    width: 50%;
+    /* border:2px green solid; */
+    /* background:url(upimage.jpg); */
+}
+.subdiv4{
+    display: flex;
+    background-color: black;
+}
+.content3{
+    width:50% ;
+    height: 411px;
+    /* border: 2px orange solid; */
+    color: white;
+
+
+}
+#title3{
+    margin-left:60px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+#paragraph3{
+    margin-top: 10px;
+    margin-left: 60px;
+    font-size: 25px;
+}
+#email2{
+    background-color: rgb(27, 25, 25);
+    margin-left: 40%;
+    padding:10px 10px;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    opacity: .8;
+    margin-top: 10px;
+}
+#getstarted2{
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+
+}
+.lastboxes h4{
+    text-align: center;
+    color: white;
+}
+.lastboxes{
+    background-color: black;
+    height: 250px;
+    width:100%;
+   padding-top: 50px;
+}
+.footer{
+    /* border: 2px solid red; */
+    background-color: black;
+    color: grey;
+    width:100%;
+    height: 285px;
+    line-height: 50px;
+}
+#lists{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    list-style-type: none;
+    text-decoration: underline;
+}
+#questionbox{
+    padding-left: 81px;
+}
+#background{
+    position: absolute;
+}
+
+
+
+
+
+
+

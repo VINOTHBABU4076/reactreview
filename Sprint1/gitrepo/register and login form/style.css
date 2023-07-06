@@ -1,0 +1,128 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    
+   
+}
+#genderspan{
+    color: white;
+}
+#gendertype{
+    color: white;
+}
+.container h1{
+    color:red;
+    text-align: center;
+}
+body{
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(tree.jpg);
+    background-size: cover;
+
+}
+.container{
+    width:100%;
+    max-width: 650px;
+    background: rgba(0,0,0,0.5);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius:  10px;
+    box-shadow: inset -2px 2px 2px white;
+}
+.form-title{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom:  6px;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: solid 1px white;
+}
+.main-user-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;    
+}
+
+.acc h6{
+    text-align: center;
+    color:white;
+    margin:20px 20px; 
+    cursor: pointer; 
+}
+.acc a{
+    display: flex;
+    justify-content: center;
+    color:white;
+    margin:10px 10px;
+}
+.acc a:hover{
+    color:green;
+}
+.user-input-box{
+    display: block;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+.user-input-box label { 
+    width: 95%;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+.user-input-box input{
+    height:40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 0 10px;
+}
+.Gender-title{
+    color:red;
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+
+}
+.gender-category{
+    margin: 15px 0;
+    color: white;
+    }
+    .gender-category label{
+        padding: 0 20px 0 50px;
+        color:white;
+    }
+    .gender-category label,
+    .gender-category input,
+    .form-submit-btn input{
+        cursor: pointer;
+    }
+    .form-submit-btn{
+        margin-top: 40px;
+    }
+    .form-submit-btn input{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        font-size: 20px;
+        padding: 10px;
+        border:none;
+        border-radius: 3px;
+        color: rgb(0,0,0);
+        background:rgba (63,114,76,0.7);
+    }
+    .form-submit-btn input:hover{
+        background:green;
+        color: rgb(255,255,255;
+    }
+   
+
