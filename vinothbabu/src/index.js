@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Twoway from './Twoway';
+import Conditionrender from './Conditionrender';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Twoway />
+    <Conditionrender />
   </React.StrictMode>
 );
 
