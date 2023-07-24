@@ -12,7 +12,7 @@ import Useref1 from './Useref';
 import Childcomponent from './Childcomponent';
 import Tables2 from "./Tables2"
 import Filter from "./Filter"
-import Dynamic from './Dynamic';
+// import Dynamic from './Dynamic';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -24,8 +24,8 @@ root.render(
   {/* <Useeffs /> */}
   {/* <Useref1 /> */}
   {/* <Filter /> */}
-  {/* <Tables2 /> */}
-  <Dynamic />
+  <Tables2 />
+  {/* <Dynamic /> */}
   </React.StrictMode>
 );
 
