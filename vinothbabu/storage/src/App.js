@@ -1,21 +1,20 @@
 import React, { useState } from 'react';
 import RegisterForm from './RegisterForm';
-import LoginForm from './Login';
+import Login from './Login';
 
-const App = () => {
-  const [isRegistered, setIsRegistered] = useState(false);
+ const App = () => {
+   const [isRegistered, setIsRegistered] = useState('Login');
 
-  const handleRegister = (status) => {
-    setIsRegistered(status);
+   const handleRegister = (status) => {
+   setIsRegistered(status);
   };
 
   return (
     <div className="app-container">
-      {isRegistered ? (
-        <LoginForm />
-      ) : (
-        <RegisterForm onRegister={handleRegister} />
-      )}
+      {
+        isRegistered==="Login"? <Login onformswitch={handleRegister}/> :<RegisterForm onformswitch={handleRegister}/>      
+        }
+      
     </div>
   );
 };

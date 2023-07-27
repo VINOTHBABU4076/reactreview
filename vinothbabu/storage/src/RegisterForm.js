@@ -1,7 +1,7 @@
 import react,{useState} from 'react'
 import  "./RegistersStyle.css"
 
-const Register = () => {
+const Register = (props) => {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -12,44 +12,44 @@ const Register = () => {
   const handleReg = () => {
     const storedUserData = localStorage.getItem('userData');
     const existingUserData = storedUserData ? JSON.parse(storedUserData) : [];
-
+  
     const existingUser = existingUserData.find(
       (user) => user.username === username || user.email === email
     );
-
+  
     if (existingUser) {
       setRegistrationError(
         existingUser.username === username
-          ? alert('Username already exists. Please choose a different one.')
-          : alert('Email address is already registered. Please use a different one.')
+          ? 'Username already exists. Please choose a different one.'
+          : 'Email address is already registered. Please use a different one.'
       );
       return;
     }
-
+  
     if (password !== cpassword) {
       setRegistrationError('Password and confirm password do not match.');
       return;
     }
-
+  
     const newUserData = {
       username,
       email,
       password,
     };
-
+  
     const updatedUserData = [...existingUserData, newUserData];
     localStorage.setItem('userData', JSON.stringify(updatedUserData));
-    localStorage.removeItem('userData[0]')
-
-    
+  
     setUsername('');
     setEmail('');
     setPassword('');
     setCpassword('');
     setRegistrationError('');
   };
+  
 
   return (
+    <div className='all'>
     <div className="container">
       <form action="" id="form">
         <h2>REGISTER</h2>
@@ -100,12 +100,14 @@ const Register = () => {
             {registrationError && <div className="error">{registrationError}</div>}
           </div>
         </div>
-        <div>
+        <div className='btn'>
           <button type="button" onClick={handleReg}>
             Submit
           </button>
+          <button onClick={ () =>props.onformswitch("Login")}> Click here if you have an account</button>
         </div>
       </form>
+    </div>
     </div>
   );
 };

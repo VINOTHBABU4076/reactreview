@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import "./Login.css"
 
-const Login = () => {
+const Login = (props) => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [loginError, setLoginError] = useState(false);
@@ -58,9 +59,11 @@ const Login = () => {
         )}
         <div>
           <button type="submit">Login</button>
+          <button className='new' onClick={ () => props.onformswitch("RegisterForm")}> Not a user Click here</button>
         </div>
       </form>
     </div>
+    
   );
 };
 

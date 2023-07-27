@@ -1,22 +1,18 @@
-import React, { useState } from 'react'
-import Parentcomponent from './Parentcomponent'
+import React from 'react';
 
- const Childcomponent = ({ondatachange}) => {
-    const[value,setvalue]=useState('')
+const ChildComponent = ({ message, onMessageChange }) => {
+  const handleChange = (e) => {
+    const newMessage = e.target.value;
+    onMessageChange(newMessage);
+  };
 
-    const valuechange=(event) =>{
-        const newdata=event.target.value;
-        setvalue(newdata);
-        ondatachange(newdata);
-    }
-  
-  
-  
-    return (
-    <div>Childcomponent
-        <p> name:{value}</p>
-        <input type="text" value={value} onChange={valuechange} />
+  return (
+    <div>
+      <h3>Child Component</h3>
+      <input type="text" value={message} onChange={handleChange} />
+      <p>Message from Parent: {message}</p>
     </div>
-  )
-}
-export default Childcomponent
+  );
+};
+
+export default ChildComponent;

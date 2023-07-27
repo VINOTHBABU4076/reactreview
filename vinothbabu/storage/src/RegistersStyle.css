@@ -1,5 +1,18 @@
-.container{
-    margin: 0 auto;
+*{
+    margin: 0 ;
+    background-color: rgb(132, 160, 156);
+    font-family: Arial;
+}
+#form{
+    width: 100%;
+    color: white;
+    margin-top: 200px;
+    padding: 50px;
+}
+h2{
+    margin-left: 40%;
+    margin-bottom: 20px;
+
 }
 .input-grp{
     margin-left: 40%;
@@ -7,25 +20,17 @@
 }
 input{
     display: block;
-}
-#form{
-    width: 50%;
-}
-h2{
-    margin-left: 40%;
-    margin-bottom: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
 }
 button{
     margin-left: 40%;
-    margin-top: 5%;
+    margin-top: 20px;
     color: red;
-    border:1px solid red;
-    border-radius: 5px;
+    border: 1px solid ;
+    border-radius: 3px;
 }
 button:hover{
-    cursor:pointer;
-}
-input{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    cursor: pointer;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Tables = ({ data }) => {
   return (
-    <div className='te'>
+    <div className='table'>
     <table>
       <thead>
         <tr>

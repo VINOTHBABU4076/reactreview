@@ -14,7 +14,6 @@ const Useref1 = () => {
     <div>
         <input value={name} onChange={e=>setcount(e.target.value)}></input>
         <p> Value is:{name} the previous value is:{render.current}</p>
-        {/* <p>  rendered times  {render.current}</p> */}
         
     </div>
   )

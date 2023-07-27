@@ -1,18 +1,22 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react';
 import Childcomponent from './Childcomponent';
 
- const Parentcomponent = () => {
-    const[count,setcount]=useState('');
-     const handlechange=(newdata)=>{
-        setcount(newdata)
+const ParentComponent = () => {
+  const [messageFromParent, setMessageFromParent] = useState('');
 
-     }
+  const handleMessageChange = (message) => {
+    setMessageFromParent(message);
+  };
 
   return (
-    <div>Parentcomponent
-        <p> name:{count}</p>
-        <Childcomponent ondatachange={handlechange}></Childcomponent>
+    <div>
+      <h2>Parent Component</h2>
+      <Childcomponent
+        message={messageFromParent}
+        onMessageChange={handleMessageChange}
+      />
     </div>
-  )
-}
-export default Parentcomponent
+  );
+};
+
+export default ParentComponent;
